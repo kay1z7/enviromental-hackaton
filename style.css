@@ -1,0 +1,105 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+#video {
+    width: 50%;
+    margin-left: 25%;
+}
+
+#video1 {
+    
+    margin-left: 25%;
+}
+
+.quote{
+    margin-left: 25%;
+}
+
+.quote1{
+    margin-left: 80%;
+}
+
+.spacer {
+  height: 300px;
+  border: white  1px
+  
+}
+
+
+
+/* Colors and font sizes can be changed, everything else is required for a responsive footer. Links can be added and removed. The spacer above is not needed, it is just simulating space where content would normally go. */
+
+.footer {
+    width: 100%;
+    background-color: rgb(36, 131, 31);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    width: 80%;
+    max-width: 1280px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer-icon {
+    min-width: 100px;
+    min-height: 100px;
+    border-radius: 50%;
+    background: rgb(223, 126, 22);
+}
+
+.footer-text {
+    margin: 0px 15px;
+    cursor: default;
+    user-select: none;
+}
+
+.footer-item {
+    color: white;
+    text-decoration: none;
+    margin: 5px 0px;
+    padding: 5px 10px 5px 10px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin: 20px 0px;
+    border-left: solid white 1px;
+    padding: 0px 50px;
+    margin-right: 50%;
+}
+
+
+
+@media (max-width: 770px) {
+    .footer-logo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .links {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        border-right: white 1px;
+    }
+
+}
